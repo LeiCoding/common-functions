@@ -2,8 +2,16 @@
 //String, Symbol, Number, Boolean, Undefined, Null
 
 //Number & String
-function reverse_a_number(n)
-{
+function reverse_a_number(n){
 	n = n + "";
 	return n.split("").reverse().join("");
+}
+
+//Number
+function factorial(n) {
+	if (n === 0) {
+		return 1;
+	} else {
+	return n * factorial(n - 1);
+	}
 }
