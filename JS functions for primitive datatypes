@@ -1,0 +1,9 @@
+//Primitive Data Types
+//String, Symbol, Number, Boolean, Undefined, Null
+
+//Number & String
+function reverse_a_number(n)
+{
+	n = n + "";
+	return n.split("").reverse().join("");
+}
